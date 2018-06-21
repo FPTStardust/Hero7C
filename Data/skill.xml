@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<skill>
+	<logo>0</logo>
+	<name>人格面具EX</name>
+	<CD>3~1</CD>
+	<effect1>暂时切换自身职阶，持续1回合</effect1>
+	<effect2>攻击克制阶级的敌人时，伤害提升（10|12|14|16|18|20|22|24|26|30，lv1~lv10）%,持续2回合。</effect2>
+	<effect3></effect3>
+	<remark>在经历了各种人生之后所获得的，在遇到各种危险的时候，都能够坚强地面对的心之盔甲，"ペルソナ！！"。</remark>
+</skill>
+
+<skill>
+	<logo>1</logo>
+	<name>星尘的秩序EX</name>
+	<CD>10~8</CD>
+	<effect1>清空敌方单体NP充能</effect1>
+	<effect2>根据减少的充能占总充能的比例，降低该敌人防御力，100%充能可降低（50|53|56|59|62|65|68|71|74|80，lv1~lv10）%防御力。</effect2>
+	<effect3></effect3>
+	<remark>作为层指挥星灵战士的执政官，可以熟练地使用高阶圣堂武士(High Templar)的"反馈"技能，"Khassar de Templari"。</remark>
+</skill>
+
+<skill>
+	<logo>2</logo>
+	<name>愿望之力EX</name>
+	<CD>8~6</CD>
+	<effect1>自身Art卡性能提升（20|22|24|26|28|30|32|34|36|40，lv1~lv10）,持续3回合。</effect1>
+	<effect2>敌方全体技能封印，宝具封印，持续2回合。</effect2>
+	<effect3>随机移除本回合备选卡牌里的一张Art卡。</effect3>
+	<remark>人们只知道他是一名喜欢蓝色的万智牌手，却永远不懂他到底带着怎样的愿望去战斗，"Force of Will"。</remark>
+</skill>

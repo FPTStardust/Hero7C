@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<nobePhantasm>
+	<type>A</type>
+	<name>空之梦·星之所在</name>
+	<alter>Sora no Yume·Hoshi no Ari</alter>
+	<level>对界宝具EX</level>
+	<hit>1</hit>
+	<effect1>对敌方全体进行强力攻击（400|500|550|575|600，lv1~lv5）</effect1>
+	<effect2>施放宝具时，每消耗（4|3.5|3|2.5|2，OC1~5）点NP，该宝具伤害提升1%</effect2>
+	<effect3>自身攻击力下降20%，持续2回合。</effect3>
+	<remark>"所有时光永恒地像星星"，在空灵的梦境中，那些关于七彩神话的回忆，已然化作繁星。这里将这个概念具体化为强大的陨石术，类似于"星尘契约"，将全身的魔力灌注于这一次攻击里，竭尽全力的一击。</remark>
+</nobePhantasm>

@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#NP {
+	background: #2A7D84;
+	width: 800px;
+	z-index: -2;
+}

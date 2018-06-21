@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  font-family: sans-serif, Arial, Segoe, Verdana; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+	font-weight: lighter;
+}
+
+/**
+ * Remove default margin.
+ */
+
+body {
+  	margin: 0;
+	align-content: center;
+	background-color:#105156;
+}
+
+
+
+aside {
+	width: 100px;
+	position:absolute;
+	
+	
+	margin-top: 25px;
+}
+
+li{
+	list-style-type: none;
+}
+
+article {
+	width:800px;
+	margin-top:25px;
+	margin-left: 110px;
+	position: absolute;
+}
+
+
+
+.aside li{
+	padding-left: 4px;
+	border-left: thick,#A0A0A0;
+	border-left-style: solid;
+	font-weight: bold;
+	background: #001D29;
+	color: #A27F51;
+	height: 25px;
+	line-height: 30px;
+	margin-top: 2px;
+}
+
+#baseinfo {
+	left:280px;
+	color:#9DAAB7;
+	font-weight: bold;
+	width:520px;
+}
+
+.Startext {
+	font-size: 40px;
+	line-height: 60px;
+}
+
+.Startextsmall {
+	font-size: 25px;
+	line-height: 30px;
+}
+
+td {
+	align-content: center;
+}
+
+.refer {
+	position: absolute;color: #164246;font-size: 35px;z-index: -1;
+	font-weight: bold;
+	
+}
+
+#SK {
+	position: absolute;
+	top:480px;
+}
