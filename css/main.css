@@ -17,7 +17,11 @@ body {
 	background-color:#105156;
 }
 
-
+hr {
+	
+	background: #C8E5FF;
+	
+}
 
 aside {
 	width: 100px;
@@ -32,6 +36,7 @@ li{
 }
 
 article {
+	color:#9DAAB7;
 	width:800px;
 	margin-top:25px;
 	margin-left: 110px;
@@ -54,7 +59,7 @@ article {
 
 #baseinfo {
 	left:280px;
-	color:#9DAAB7;
+	
 	font-weight: bold;
 	width:520px;
 }
@@ -73,13 +78,36 @@ td {
 	align-content: center;
 }
 
-.refer {
-	position: absolute;color: #164246;font-size: 35px;z-index: -1;
-	font-weight: bold;
-	
+
+
+/* 技能说明间距统一设置 */
+#skills,.head,.IF{
+	margin-top: 8px;
 }
 
-#SK {
-	position: absolute;
-	top:480px;
+/*统一宽度和背景颜色*/
+.IF {
+	background: #22656B;
+	width: 794px;
+	padding:3px;
 }
+
+.refer {
+	position: absolute;
+	color: #164246;
+	font-size: 35px;
+	z-index: -1;
+	font-weight: bold;	
+}
+
+.head {
+	color: #164246;
+	font-size: 35px;
+	font-weight: bold;
+	background: #22656B;
+}
+
+.IF ul{
+	margin: -5px 0px;
+}
+

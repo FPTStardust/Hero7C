@@ -3,10 +3,9 @@
 
 <pskill>
 	<logo>0</logo>
-	<name>红灵蛇</name>
-	<level>B</level>
+	<name>红灵蛇B</name>
 	<effect1>自身Arts性能提升10%。</effect1>
-	<effect2>每回合回复5点NP</effect2>
+	<effect2>每回合回复5点NP。</effect2>
 	<effect3></effect3>
 	<remark>红灵蛇的魔力，路过的地方容易下雨。</remark>
 </pskill>
@@ -25,7 +24,7 @@
 <pskill>
 	<logo>2</logo>
 	<name>永恒的领导力B</name>
-	<effect1>我方全体攻击力提升11%</effect1>
+	<effect1>我方全体攻击力提升11%。</effect1>
 	<effect2></effect2>
 	<effect3></effect3>
 	<remark>虽然并不适合身为一名领导者，但的确是带领大家大家创造神话的人。</remark>
@@ -35,7 +34,7 @@
 <pskill>
 	<logo>2</logo>
 	<name>塔拉夏的法理A</name>
-	<effect1>本回合每打出一张自身的不同颜色的卡（含EX），三色卡性能提升7.5%。</effect1>
+	<effect1>本回合每打出一张自身的不同颜色的卡（含EX），自身三色卡性能提升7.5%。</effect1>
 	<effect2></effect2>
 	<effect3></effect3>
 	<remark>暗黑破坏神3，第11赛季天梯登顶留念，该效果为塔拉夏的法理套装6件套的效果。</remark>

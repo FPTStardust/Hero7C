@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <skill>
-	<logo>0</logo>
+	<logo>1</logo>
 	<name>人格面具EX</name>
 	<CD>3~1</CD>
 	<effect1>暂时切换自身职阶，持续1回合</effect1>
@@ -21,7 +21,7 @@
 </skill>
 
 <skill>
-	<logo>2</logo>
+	<logo>1</logo>
 	<name>愿望之力EX</name>
 	<CD>8~6</CD>
 	<effect1>自身Art卡性能提升（20|22|24|26|28|30|32|34|36|40，lv1~lv10）,持续3回合。</effect1>

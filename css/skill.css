@@ -2,8 +2,31 @@
 /* CSS Document */
 
 
-#NP {
-	background: #2A7D84;
-	width: 800px;
-	z-index: -2;
+.npname {
+	text-align: center;
 }
+
+.npename {
+	
+}
+
+.npcname {
+	font-size: 35px;
+	font-family: Kaiti, Microsoft Yahei;
+}
+
+.nptype {
+	position: relative;
+	top:6px;
+}
+
+
+.remark{
+	font-family: Kaiti, Microsoft Yahei;
+	margin:10px 43px;
+}
+.nplevel，.nphit {
+	font-weight: bold;
+}
+
+
