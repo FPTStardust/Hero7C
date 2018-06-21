@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html {
-  font-family: sans-serif, Arial, Segoe, Verdana; /* 1 */
+  font-family: sans-serif, Arial, Microsoft Yahei, Segoe, Verdana; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 	font-weight: lighter;
@@ -43,7 +43,10 @@ article {
 	position: absolute;
 }
 
-
+.aside a{
+	text-decoration: none;
+	color:inherit;
+}
 
 .aside li{
 	padding-left: 4px;
@@ -59,7 +62,7 @@ article {
 
 #baseinfo {
 	left:280px;
-	
+	height: 450px;
 	font-weight: bold;
 	width:520px;
 }

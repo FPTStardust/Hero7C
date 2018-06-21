@@ -12,7 +12,7 @@
 
 .npcname {
 	font-size: 35px;
-	font-family: Kaiti, Microsoft Yahei;
+	font-family: Arial, Kaiti, Microsoft Yahei;
 }
 
 .nptype {
@@ -22,8 +22,8 @@
 
 
 .remark{
-	font-family: Kaiti, Microsoft Yahei;
-	margin:10px 43px;
+	font-family: Arial, Kaiti,Microsoft Yahei;
+	margin:10px 41px;
 }
 .nplevel，.nphit {
 	font-weight: bold;

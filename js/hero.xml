@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 0 -->
+<heros>
+	<hero tag="Liruoming">
+		
+		<class>Ruler</class>
+		<title>空灵·星尘</title>
+		<name>李若铭</name>
+		<name_eng>Spectre Lee</name_eng>
+		<stella>白羊</stella>
+		<gender>男</gender>
+		<attribute>混沌·善</attribute>
+		<element>风·空</element>
+
+		<atk>10972</atk>
+		<hp>14107</hp>
+		<card>AABBQ</card>
+		<!--Arts|Burster|Quick|Extra-->
+		<hit>A2|B1|Q3|EX7</hit>
+		<getNP>0.86</getNP>
+		<getstar>10%|3</getstar>
+		<critical>100</critical>
+
+		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
+		<ability>C|A|C|A|B|D|C</ability>
+		<extra_ability>视频A 平面A 文字C 建模B 编程C 摄影C 心理D 占卜C 蹭饭EX</extra_ability>
+
+
+		<NP>空之梦·星之所在</NP>
+		<skill>人格面具EX|星尘的秩序EX|愿望之力EX</skill>
+		<passive>红灵蛇B|规则制作A|永恒的领导力B|塔拉夏的法理A|命运探知C</passive>
+
+		<remark>宣传部部长，七彩神话的创建者，是一位善良而随性的人。由于比较波折的就经历和重度的妄想症，他能够在局部的空间里创造自己的规则，把自身的经历和接触到的作品里的事物具体化为自己的力量，去保护重要的事物。因为在两个平行世界里同时以空灵和星尘的身份存在，所以也有着利用平行世界的力量的能力和微弱的感知未来的能力。由于会的东西实在太杂了，被称为不会摄影不做视频不搞设计不做教程不会调音不做模型不写代码不玩卡牌不研究心理不炖猫不长碳管的文艺宅不是好游戏主播。</remark>
+	</hero>
+
+
+	<hero tag="Zhenglianjun">
+		<tag>Zhenglianjun</tag>
+		<class>Archer</class>
+		<title>君姐·清紫玉·木棉</title>
+		<name>郑莲君</name>
+		<name_eng>Ellie Zheng</name_eng>
+		<stella>白羊</stella>
+		<gender>女</gender>
+		<attribute>中立·善</attribute>
+		<element>雷·光</element>
+
+		<atk>11276</atk>
+		<hp>14553</hp>
+		<card>AABQQ</card>
+		<!--Arts|Burster|Quick|Extra-->
+		<hit>A3|B3|Q4|EX5</hit>
+		<getNP>0.59|3</getNP>
+		<getstar>8%</getstar>
+		<critical>153</critical>
+
+		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
+		<ability>A|C|C|A|B|B|D</ability>
+		<extra_ability>视频A 平面A 文字B 编程A 排球B 日语A</extra_ability>
+
+
+		<NP>莲蝶梦</NP>
+		<skill>警醒之铃A|丘比特之箭EX|君法特效A</skill>
+		<passive>君姐威武EX|八卦吸引力B|乘骑C|阵地做成B|人肉光谱仪EX</passive>
+
+		<remark>宣传部视频组成员，现在是俗人斋论坛的站长。因为总能给人一种知心大姐姐的形象，所以只要是年龄没有差到一个悲份的朋友，都会喊她一声"君姐"。9年的时间里，被一系列的人影响之后，成功地由一个三次元积极向上的乖孩子，转型成了动漫游戏技术宅。所有宣传部成员里，木棉作为从部长那里继承技能最多的成员，也差不多变成了一个什么都会的人，不会修图不做视频不爱开发新技能的文艺宅不是好计算化学工作者。</remark>
+	</hero>
+</heros>
