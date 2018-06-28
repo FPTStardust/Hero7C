@@ -4,7 +4,8 @@
 <heros>
 
 	<Liruoming>
-<!-- 基本属性 -->		
+		<!-- 基本属性 -->
+		<portCount>1</portCount>	
 		<class>Ruler</class>
 		<title>空灵·星尘</title>
 		<name>李若铭</name>
@@ -41,11 +42,23 @@
 			<remark>"所有时光永恒地像星星"，在空灵的梦境中，那些关于七彩神话的回忆，已然化作繁星。这里将这个概念具体化为强大的陨石术，类似于"星尘契约"，将全身的魔力灌注于这一次攻击里，竭尽全力的一击。</remark>
 		</nobePhantasm>
 		
+		<nobePhantasm>
+			<type>Q</type>
+			<name>原子力显微镜</name>
+			<alter>Atomic Force Microscope</alter>
+			<level>对纳米宝具AFM</level>
+			<hit>10</hit>
+			<effect1>对敌方单体进行强力攻击(2000|2500|2750|2875|3000，lv1~lv5)。</effect1>
+			<effect2>对[身高比自己低的目标]特攻，伤害提升（100,111,122,133,140，OC1~5）%。</effect2>
+			<effect3>该宝具需要消耗200NP。</effect3>
+			<remark>纳米化学领域强有力的工具，扫描探针显微术的一种，可以得到纳米尺度的材料的力学电学等性质。有道是：AFM好！</remark>
+		</nobePhantasm>
+		
 	
 <!-- 主动技能 -->
 		
 		<skill>
-			<logo>1</logo>
+			<logo>9</logo>
 			<name>人格面具EX</name>
 			<CD>3~1</CD>
 			<effect1>暂时切换自身职阶，持续1回合</effect1>
@@ -55,28 +68,28 @@
 		</skill>
 
 		<skill>
-			<logo>1</logo>
+			<logo>10</logo>
 			<name>星尘的秩序EX</name>
 			<CD>10~8</CD>
 			<effect1>清空敌方单体NP充能</effect1>
 			<effect2>根据减少的充能占总充能的比例，降低该敌人防御力，100%充能可降低(50|53|56|59|62|65|68|71|74|80，lv1~lv10)%防御力。</effect2>
 			<effect3></effect3>
-			<remark>作为层指挥星灵战士的执政官，可以熟练地使用高阶圣堂武士(High Templar)的"反馈"技能，"Khassar de Templari"。</remark>
+			<remark>作为曾指挥星灵战士的执政官，可以熟练地使用高阶圣堂武士(High Templar)的"反馈"技能，"Khassar de Templari"。</remark>
 		</skill>
 
 		<skill>
-			<logo>1</logo>
+			<logo>11</logo>
 			<name>愿望之力EX</name>
 			<CD>8~6</CD>
 			<effect1>自身Art卡性能提升(20|22|24|26|28|30|32|34|36|40，lv1~lv10),持续3回合。</effect1>
-			<effect2>敌方全体技能封印，宝具封印，持续2回合。</effect2>
+			<effect2>敌方全体技能封印，宝具封印，持续1回合。</effect2>
 			<effect3>随机移除本回合备选卡牌里的一张Art卡。</effect3>
 			<remark>人们只知道他是一名喜欢蓝色的万智牌手，却永远不懂他到底带着怎样的愿望去战斗，"Force of Will"。</remark>
 		</skill>
 		
 		
 		<pskill>
-			<logo>0</logo>
+			<logo>12</logo>
 			<name>红灵蛇B</name>
 			<effect1>自身Arts性能提升10%。</effect1>
 			<effect2>每回合回复5点NP。</effect2>
@@ -84,10 +97,12 @@
 			<remark>红灵蛇的魔力，路过的地方容易下雨。</remark>
 		</pskill>
 		
+		
+		
 <!-- 固有技能 -->
 
 		<pskill>
-			<logo>1</logo>
+			<logo>8</logo>
 			<name>规则制作A</name>
 			<effect1>受到卡牌相关的攻击时的伤害降低30%，且不会触发额外的效果。</effect1>
 			<effect2></effect2>
@@ -97,17 +112,17 @@
 
 
 		<pskill>
-			<logo>2</logo>
+			<logo>1</logo>
 			<name>永恒的领导力B</name>
-			<effect1>我方全体攻击力提升11%。</effect1>
+			<effect1>友方全体攻击力提升11%。</effect1>
 			<effect2></effect2>
 			<effect3></effect3>
-			<remark>虽然并不适合身为一名领导者，但的确是带领大家大家创造神话的人。</remark>
+			<remark>虽然性格上并不适合作为一名领导者，但的确是带领大家大家创造神话的人。</remark>
 		</pskill>
 
 
 		<pskill>
-			<logo>2</logo>
+			<logo>13</logo>
 			<name>塔拉夏的法理A</name>
 			<effect1>本回合每打出一张自身的不同颜色的卡(含EX)，自身三色卡性能提升7.5%。</effect1>
 			<effect2></effect2>
@@ -117,20 +132,28 @@
 
 
 		<pskill>
-			<logo>2</logo>
+			<logo>14</logo>
 			<name>命运探知C</name>
 			<effect1>自身获得10%的回避状态。</effect1>
 			<effect2></effect2>
 			<effect3></effect3>
-			<remark>能够略微感受到平行世界的扰动，以及世界线的变动，并一定程度上预测可能的危险。</remark>
+			<remark>魔眼Reading Steiner，能够略微感受到平行世界的扰动，以及世界线的变动，并一定程度上预测可能的危险。出自Steins Gate。</remark>
+		</pskill>
+		
+		<pskill>
+			<logo>38</logo>
+			<name>专业解说A</name>
+			<effect1>任何事件(造成伤害，恢复生命，施加状态，触发固有技能)判定为成功时，都会有1%的概率无效。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>"要相信专业解说的判断！"，这是最强的因果律武器。</remark>
 		</pskill>
 		
 	</Liruoming>
 
-
 	<Zhenglianjun>
 	<!-- 基本属性 -->
-		<tag>Zhenglianjun</tag>
+		<portCount>3</portCount>
 		<class>Archer</class>
 		<title>君姐·清紫玉·木棉</title>
 		<name>郑莲君</name>
@@ -153,7 +176,7 @@
 		<ability>ACCABBD</ability>
 		<extra_ability>视频A 平面A 文字B 编程A 排球B 日语A</extra_ability>
 
-		<remark>宣传部视频组成员，现在是俗人斋论坛的站长。因为总能给人一种知心大姐姐的形象，所以只要是年龄没有差到一个悲份的朋友，都会喊她一声"君姐"。9年的时间里，被一系列的人影响之后，成功地由一个三次元积极向上的乖孩子，转型成了动漫游戏技术宅。所有宣传部成员里，木棉作为从部长那里继承技能最多的成员，也差不多变成了一个什么都会的人，不会修图不做视频不爱开发新技能的文艺宅不是好计算化学工作者。</remark>
+		<remark>宣传部视频组成员，现在是俗人斋论坛的站长。因为总能给人一种知心大姐姐的形象，所以只要是年龄没有差到一个辈分的朋友，都会喊她一声"君姐"。9年的时间里，被一系列的人影响之后，成功地由一个三次元积极向上的乖孩子，转型成了动漫游戏技术宅。所有宣传部成员里，木棉作为从部长那里继承技能最多的成员，也差不多变成了一个什么都会的人，不会修图不做视频不爱开发新技能的文艺宅不是好计算化学工作者。</remark>
 		
 	<!-- 宝具 -->
 		<nobePhantasm>
@@ -164,13 +187,14 @@
 			<hit>10</hit>
 			<effect1>自身攻击力提升25%，防御力提升10%，永久持续。</effect1>
 			<effect2>对敌方单体进行强力攻击(900|1200|1350|1425|1500，lv1~lv5)。</effect2>
-			<effect3>自身获得每回合回复(5|10|15|20|25,OC1~5)NP的状态，持续5回合。</effect3>
-			<remark>用"Trace On"对自己进行精神暗示，引导出黑莲花的力量，不仅强化了自身的战斗力，还获得了源源不断地能量。比起用魔力升成武器，这里更多地是将魔力用于强化自身的状态，类似于"梦蛇"的效果。</remark>
+			<effect3>自身获得每回合回复(5|7|10|12|15,OC1~5)NP的状态，持续5回合。</effect3>
+			<remark>对自己进行精神暗示，引导出黑莲花的力量，不仅强化了自身的战斗力，还获得了源源不断地能量。比起用魔力升成武器，这里更多地是将魔力用于强化自身的状态，类似于"梦蛇"的效果。</remark>
 		</nobePhantasm>
+		
 		
 	<!-- 主动技能 -->
 		<skill>
-			<logo>1</logo>
+			<logo>15</logo>
 			<name>警醒之铃A</name>
 			<CD>7~5</CD>
 			<effect1>提升我放单人的(30|32|34|36|38|40|42|44|46|50，lv1~lv10)%的攻击力。</effect1>
@@ -180,17 +204,17 @@
 		</skill>
 
 		<skill>
-			<logo>1</logo>
+			<logo>16</logo>
 			<name>丘比特之箭EX</name>
 			<CD>5~3</CD>
-			<effect1>高概率(100|110|120|130|140|150|160|170|180|200，lv1~lv10)魅惑敌方单体，持续1回合。</effect1>
+			<effect1>高概率(100|105|110|115|120|125|130|135|140|150，lv1~lv10)魅惑敌方单体，持续1回合。</effect1>
 			<effect2>如果目标是神兽，魅惑一定成功，且持续时间提升至3回合。</effect2>
 			<effect3>目标防御力降低30%</effect3>
 			<remark>偶然在周口店考察时发现的弓箭，可以让这个世间充满爱。这也是为什么她会被选为Archer的原因。</remark>
 		</skill>
 
 		<skill>
-			<logo>1</logo>
+			<logo>18</logo>
 			<name>君法特效A</name>
 			<CD>8~6</CD>
 			<effect1>自身Art卡性能提升(20|22|24|26|28|30|32|34|36|40，lv1~lv10),持续3回合。</effect1>
@@ -198,19 +222,37 @@
 			<effect3></effect3>
 			<remark>以旋转缩放移动等基础要素为基元，组合出各种持久的绚丽效果的手法。</remark>
 		</skill>
+		
+		<skill>
+			<logo>19</logo>
+			<name>第三视角EX</name>
+			<CD>8~6</CD>
+			<effect1>自身NP减少(40|36|32|28|24|20|16|12|8|0，lv1~lv10)。</effect1>
+			<effect2>友方或敌方单体的HP和NP回到上个回合开始的状态。</effect2>
+			<effect3></effect3>
+			<remark>"Blick Winkel",比命运探知更高级的魔眼，不仅能感受到平行世界的存在，还能进行一定的干涉。出自 Ever 17。</remark>
+		</skill>
+		
 	<!-- 固有技能 -->
 		<pskill>
-			<logo>0</logo>
+			<logo>20</logo>
 			<name>君姐威武EX</name>
 			<effect1>受到伤害时，会降低攻击者的攻击力10%，持续3回合。</effect1>
 			<effect2></effect2>
 			<effect3></effect3>
 			<remark>"姐"代表的不是年龄，而是一种生活态度。</remark>
 		</pskill>
-
+		<pskill>
+			<logo>21</logo>
+			<name>因果律的溶解EX</name>
+			<effect1>不会受到任何特攻攻击的加成效果。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>接任了"星尘的秩序"群的群主之后，获得的洞悉因果循环的能力。</remark>
+		</pskill>
 
 		<pskill>
-			<logo>1</logo>
+			<logo>22</logo>
 			<name>八卦吸引力B</name>
 			<effect1>自身获得50%的目标集中状态。</effect1>
 			<effect2></effect2>
@@ -220,17 +262,17 @@
 
 
 		<pskill>
-			<logo>2</logo>
-			<name>乘骑C</name>
+			<logo>5</logo>
+			<name>骑乘C</name>
 			<effect1>Quick卡性能提升8%。</effect1>
-			<effect2>如果我方有神兽，Quick卡性能提升10%</effect2>
+			<effect2>如果友方有神兽，Quick卡性能再提升10%</effect2>
 			<effect3></effect3>
 			<remark>其实指的是驾照，不过在驾驭神兽的时候，会发挥出EX等级的实力。</remark>
 		</pskill>
 
 
 		<pskill>
-			<logo>2</logo>
+			<logo>23</logo>
 			<name>阵地做成B</name>
 			<effect1>Art卡性能提升10%。</effect1>
 			<effect2></effect2>
@@ -239,7 +281,7 @@
 		</pskill>
 
 		<pskill>
-			<logo>2</logo>
+			<logo>24</logo>
 			<name>人肉光谱仪EX</name>
 			<effect1>攻击附加"使目标防御力下降10%，持续3回合"的效果。</effect1>
 			<effect2></effect2>
@@ -247,4 +289,562 @@
 			<remark>可以目测出食物中的营养成分，十分有益于健康合理膳食。</remark>
 		</pskill>
 	</Zhenglianjun>
+	
+	<Cuixinge>
+		<!-- 基本属性 -->
+		<portCount>2</portCount>
+		<class>Caster</class>
+		<title>长乐未央·大小姐·组长</title>
+		<name>崔馨戈</name>
+		<name_eng>Xinge Cui</name_eng>
+		<stella>天蝎</stella>
+		<gender>女</gender>
+		<attribute>混沌·恶</attribute>
+		<element>水·时</element>
+
+		<atk>7032</atk>
+		<hp>13453</hp>
+		<card>AABQQ</card>
+		<!--Arts|Burster|Quick|Extra-->
+		<hit>A3|B1|Q6|EX4</hit>
+		<getNP>0.60|8</getNP>
+		<getstar>18%</getstar>
+		<critical>55</critical>
+
+		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
+		<ability>EADBEAA</ability>
+		<extra_ability>视频D 平面C 文字A 花痴EX 傲娇EX 演唱EEX 八卦EEEX</extra_ability>
+
+		<remark>宣传部平面组成员，古灵精怪而又多才多艺的大小姐。由于在很多独特的方面有着相当与众不同地表现，导致很多能力的等级界定都超出了检测限，因而被英灵召唤系统定性为混沌·恶，其实本人并非如此。身为宣传部的颜值担当，响惊四座的唱功担当以及众考生的信仰所归，时隔多年却成了又宅又腐前途未卜典型代表。正如木棉所说，组长部长脱光日，家祭无忘告乃翁，这的确是宣传部的7大未解之谜之一。总结一下，不犯花痴不爱吐槽没有文采不仰头大笑的文艺宅不是好医学砖工。</remark>
+		
+	<!-- 宝具 -->
+		<nobePhantasm>
+			<type>Q</type>
+			<name>长霄望月</name>
+			<alter>Moon Prism Power, Make Up!</alter>
+			<level>对人宝具EEEX</level>
+			<hit>9</hit>
+			<effect1>对敌方单体进行强力攻击(900|1200|1350|1425|1500，lv1~lv5)。</effect1>
+			<effect2>所有普通攻击Hit数加（1|2|3|4|5，OC1~5），持续2回合。</effect2>
+			<effect3>敌方强化成功率下降40%，友方弱体耐性提升40%</effect3>
+			<remark>"月亮在天上，我在地上，就像你在天涯，我在海角。"用自己的歌声，操纵月光化为利剑，给与敌人连续地打击。然后布下望月神坛，干扰领域内所有魔法的生效。PS：这句文不对题的英文翻译大家自行百度。</remark>
+		</nobePhantasm>
+		
+		<nobePhantasm>
+			<type>A</type>
+			<name>神佑</name>
+			<alter>Never Fail.</alter>
+			<level>对人宝具EEX</level>
+			<hit>9</hit>
+			<effect1>友方全体恢复最大生命值60%的生命</effect1>
+			<effect2>友方全体获得战斗续行效果(恢复60%生命)，1次，持续5回合。</effect2>
+			<effect3>该宝具需要200NP发动。</effect3>
+			<remark>常言道，"拜馨戈，不挂科"。随着万物流转，时光飞逝，曾经的信仰已经渐渐被人遗忘，然而考试却孩还在继续，挂科还在发生，人们永远走不出这个轮回。</remark>
+		</nobePhantasm>
+		
+		
+	<!-- 主动技能 -->
+		<skill>
+			<logo>25</logo>
+			<name>快速神言EEX</name>
+			<CD>7~5</CD>
+			<effect1>提升自身(100|120|140|160|180|200|220|240|260|300，lv1~lv10)的NP。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>不需要思考就可以一语惊人，说出的话很容易成为经典被人传颂。</remark>
+		</skill>
+
+		<skill>
+			<logo>26</logo>
+			<name>苹果黄金律EEEX</name>
+			<CD>8~6</CD>
+			<effect1>NP获取率提升(100|110|120|130|140|150|160|170|180|200，lv1~lv10)%，持续3回合。</effect1>
+			<effect2>友方全体回复1000HP</effect2>
+			<effect3></effect3>
+			<remark>有很多i开头的电子产品，很多很多。因为曾评论"金钱豹也不怎么贵啊"，被暮雪定义为有钱人家的大小姐。</remark>
+		</skill>
+
+		<skill>
+			<logo>3</logo>
+			<name>千里疾行EX</name>
+			<CD>6~4</CD>
+			<effect1>自身Quick卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10),持续7回合。</effect1>
+			<effect2>自身获得回避效果，持续1回合。</effect2>
+			<effect3></effect3>
+			<remark>即使穿高跟鞋也能以近似于竞走的速度移动，"你走开，马不停蹄地圆润地走开！"</remark>
+		</skill>
+		
+		<skill>
+			<logo>28</logo>
+			<name>哲学问答EX</name>
+			<CD>8~6</CD>
+			<effect1>赋予自身(40|42|44|46|48|50|52|54|56|60，lv1~lv10)的男性特攻,持续3回合。</effect1>
+			<effect2>暴击星掉落率提升30%。</effect2>
+			<effect3></effect3>
+			<remark>很多年后，对于"裴坚和林坚到底谁更帅?"这个问题，终于有了自己的答案。</remark>
+		</skill>
+		
+		
+		
+	<!-- 固有技能 -->
+		<pskill>
+			<logo>17</logo>
+			<name>真女神转生EEEEEX</name>
+			<effect1>自身造成的伤害增加5000。</effect1>
+			<effect2>弱体耐性提升40%</effect2>
+			<effect3></effect3>
+			<remark>"人家是铝汉纸!" PS:量变引起质变告诉我们，FGO里最废的被动技能在被强化到足够高的等级之后也可以成为神技。</remark>
+		</pskill>
+		<pskill>
+			<logo>27</logo>
+			<name>越实验越孤单EX</name>
+			<effect1>每次造成伤害时，会使目标失去当前生命值的1%</effect1>
+			<effect2>暴击时，再失去当前生命的2%</effect2>
+			<effect3></effect3>
+			<remark>她曾用歌声唱出科研人员心中的寂寞与不安。这里将这种感情，转化为逐渐消磨地方生命的手段。其实科研何尝不是如此，耗费了青春，却知不道换来了什么。珍惜你身边每一个PhD吧。</remark>
+		</pskill>
+
+		<pskill>
+			<logo>29</logo>
+			<name>笑忘戈EX</name>
+			<effect1>敌方技能有20%的概率会失败。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>"据说这里是北大曾经的鹊桥，在这里拍照就会有两个男朋友",然后这个表情就成了组长的标志性笑容。与地下室的望月神坛里那种崔馨戈的微笑同样被誉为经典传颂。</remark>
+		</pskill>
+
+
+		<pskill>
+			<logo>31</logo>
+			<name>回归的鸡腿饭EX</name>
+			<effect1>我放全体获得"执行指令卡之后，获得500HP"的效果。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>纵然走南闯北，纵使时光推移，最怀念的还是当初食堂里鸡腿饭的味道。另外组长对北方的很多面食尤其是煎饼情有独钟，可惜那个最好吃的煎饼摊在建设品质校园的时候拆掉了。</remark>
+		</pskill>
+
+
+		<pskill>
+			<logo>30</logo>
+			<name>毕业戈EEX</name>
+			<effect1>所有对自身的负面效果持续时间降低为1回合。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>正所谓入化出神，进入化院活着出去的都是神，必然是百毒不侵的。</remark>
+		</pskill>
+
+	</Cuixinge>
+	
+	<Chupengxiang>
+		<!-- 基本属性 -->
+		<portCount>1</portCount>
+		<class>Archer</class>
+		<title>蒲公英·白隼</title>
+		<name>储鹏翔</name>
+		<name_eng>Skyfalco Chu</name_eng>
+		<stella>天蝎</stella>
+		<gender>男</gender>
+		<attribute>混沌·中立</attribute>
+		<element>水·暗</element>
+
+		<atk>12280</atk>
+		<hp>13097</hp>
+		<card>AABBQ</card>
+		<!--Arts|Burster|Quick|Extra-->
+		<hit>A3|B1|Q4|EX5</hit>
+		<getNP>0.51|3</getNP>
+		<getstar>7.9%</getstar>
+		<critical>145</critical>
+
+		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
+		<ability>BBBBCBD</ability>
+		<extra_ability>视频C 平面A 文字A 编程EX 摄影A 家政EX</extra_ability>
+
+		<remark>宣传部平面组成员，资深全能技术宅，宣传部两大核心之一，表宣传部第二任部长+里宣传部部长，百翎洲建设者。技术上可以轻松搞定各种软件硬件，从底层到应用无所不能；艺术层面可以领悟各个层次的作品，无论是欣赏还是自己动手去创作；居家旅行也能体现出温柔细腻的一面，几乎看不出是天蝎座的，他光荣地成为了宣传部的婚礼第一人。然而一入生物深似海，从此毕业是路人，希望他早日成为"不会摄影不做海报不写代码不下厨不养猫不膜蛤的文艺宅不是好生物PhD",听说高考出分了，记得告诉学弟学妹们，别报清华，别选生物。</remark>
+		
+	<!-- 宝具 -->
+		<nobePhantasm>
+			<type>B</type>
+			<name>全北大的猫</name>
+			<alter>Unlimited Cat Works</alter>
+			<level>对军宝具A</level>
+			<hit>5</hit>
+			<effect1>暴击星掉落率提升（30|40|50|60|70，OC1~5）%，持续3回合。</effect1>
+			<effect2>对敌方单体进行强力攻击(400|500|550|575|600，lv1~lv5)。</effect2>
+			<effect3>自身赋予攻击造成30%即死效果，持续3回合。</effect3>
+			<remark>"我代表全北大的猫！"我大家分为两派辩论李彦老师和卞江老师的普通化学原理课程谁的更好的时候，他因为代表了全北大的猫而使得卞老师的支持方取得了绝对的数量优势。Unlimited Cat Works是他唯一可以使用的魔术，用自己对猫的热爱张开固有结界，可以将穷极一生所见之猫瞬间投影出来，给敌人以致命的打击。一般召唤系魔术更倾向于Rider或者Caster，然而他投影出的猫本身很普通并非珍奇异兽，也不是魔力构成的使魔，更像是猫的英灵，所以被选为以宝具数量种类较多为代表的Archer。</remark>
+		</nobePhantasm>
+		
+		
+		
+		
+	<!-- 主动技能 -->
+		<skill>
+			<logo>1</logo>
+			<name>辉煌的5号位A</name>
+			<CD>8~6</CD>
+			<effect1>友方全体攻击力提升(20|22|24|26|28|30|32|34|36|40，lv1~lv10)%，持续3回合。</effect1>
+			<effect2>友方全体攻击力提升(20|22|24|26|28|30|32|34|36|40，lv1~lv10)%，持续3回合。</effect2>
+			<effect3>友方全体获得20NP。</effect3>
+			<remark>包鸡包眼不抢钱的佛系好辅助，你值得拥有。</remark>
+		</skill>
+
+		<skill>
+			<logo>40</logo>
+			<name>长空白隼EX</name>
+			<CD>8~6</CD>
+			<effect1>敌方单体攻击力降低(20|22|24|26|28|30|32|34|36|40，lv1~lv10)%，持续3回合。</effect1>
+			<effect2>敌方单体防御力降低(20|22|24|26|28|30|32|34|36|40，lv1~lv10)%，持续3回合。</effect2>
+			<effect3></effect3>
+			<remark>空之轨迹里科洛丝的白隼。PS：来自剑帝的哀嚎"求求你别放那只鸟了，行不……"</remark>
+		</skill>
+
+		<skill>
+			<logo>35</logo>
+			<name>命途多舛的死喵喵A</name>
+			<CD>15~13</CD>
+			<effect1>自身获得6次战斗续行状态，死后立刻复活回复(500|600|700|800|900|1000|1100|1200|1300|1500，lv1~lv10)HP,持续10回合。</effect1>
+			<effect2>Buster卡耐性提升30%，持续3回合。</effect2>
+			<effect3></effect3>
+			<remark>这只猫从北大到朝阳区，从合肥到宣城，经历了一次绝育，两次离家出走，三个寒假的无人看管，最终幸福地活了下来。</remark>
+		</skill>
+		
+		<skill>
+			<logo>37</logo>
+			<name>天启反抗军EX</name>
+			<CD>10~8</CD>
+			<effect1>自身获得每回合获得(8|9|10|11|12|13|14|15|16|17，lv1~lv10)个暴击星的状态,持续5回合。</effect1>
+			<effect2>我放全体暴击威力提升40%，持续3回合。</effect2>
+			<effect3></effect3>
+			<remark>Ingress: The world is not what it seems. </remark>
+		</skill>
+		
+		
+		
+	<!-- 固有技能 -->
+		<pskill>
+			<logo>32</logo>
+			<name>传奇修补匠B</name>
+			<effect1>使用技能时，会使我放全体技能CD减少1。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>高超的硬件天赋与经验，可以拆解各种电子产品和机械产品。这里将这个技能具体化为我放技能的冷却缩减。</remark>
+		</pskill>
+		<pskill>
+			<logo>33</logo>
+			<name>蒲公英的约定A</name>
+			<effect1>弱体耐性提升50%。</effect1>
+			<effect2>魅惑无效。</effect2>
+			<effect3></effect3>
+			<remark>蒲公英与雏菊的爱情故事衍生出的高级对魔力。</remark>
+		</pskill>
+
+		<pskill>
+			<logo>34</logo>
+			<name>买买买买买D</name>
+			<effect1>NP获取率提升15%</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>有些东西是无法用文字描述的，比如白隼的买买买买买五连发，只有听过的人才能感受到个中妙处。</remark>
+		</pskill>
+
+
+		<pskill>
+			<logo>36</logo>
+			<name>聚合酶链式反应A</name>
+			<effect1>执行Art卡的攻击后，随机一名队友会对你攻击的目标执行一次Art卡具有30%暴击率的追加攻击。</effect1>
+			<effect2>队友使用Art卡攻击后，你对同一目标进行一次Art卡具有15%暴击率和5%即死率的追加攻击。</effect2>
+			<effect3>追加攻击不会触发聚合酶链式反应。</effect3>
+			<remark>简称PCR，DNA扩增必备的设备。虽说是复制DNA序列，但也避免不了突变的发生。</remark>
+		</pskill>
+	</Chupengxiang>
+		
+	<Aimeng>
+		<!-- 基本属性 -->
+		<portCount>2</portCount>
+		<class>Saber</class>
+		<title>飞天柠檬·95·Am·柠檬蘑菇菌·某个水果·副主席·et al</title>
+		<name>艾濛</name>
+		<name_eng>Amanda Ai</name_eng>
+		<stella>天秤</stella>
+		<gender>女</gender>
+		<attribute>秩序·中立</attribute>
+		<element>风·幻</element>
+
+		<atk>12585</atk>
+		<hp>14495</hp>
+		<card>AABBQ</card>
+		<!--Arts|Burster|Quick|Extra-->
+		<hit>A2|B1|Q2|EX3</hit>
+		<getNP>1.26|3</getNP>
+		<getstar>10.0%</getstar>
+		<critical>100</critical>
+
+		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
+		<ability>BBACBBA</ability>
+		<extra_ability>视频A 平面B 文字C 刷夜EX 酸A </extra_ability>
+
+		<remark>宣传部视频组成员，95法特效创始人，队形组组长，第二届学生会副主席，宣传部两大核心之一。相比宣传部一向内敛的作风，她为人开朗，做事果断，在各种圈子里左右逢源，犹如风一般的女子，也因此被不同领域的人从不同的角度给与了各种各样的称呼。多年后大家才意识到，柠檬才是中二精神的贯彻者，资深动漫游戏老宅，姿势水平极高。我们惊呼的相见恨晚的神作，对她来说早已如过眼云烟。宣传部领证第一人，早早退坑的看着你们化学PhD就笑笑不说话。不会修图不做视频不爱旅游不敲报告脾气不急的文艺宅不是好游戏玩家。</remark>
+		
+	<!-- 宝具 -->
+		<nobePhantasm>
+			<type>B</type>
+			<name>誓约柠檬之剑</name>
+			<alter>Excalibur·Amanda</alter>
+			<level>对城宝具A</level>
+			<hit>1</hit>
+			<effect1>敌方全体Burst卡耐性下降（30|35|40|45|50，OC1~5）%，持续3回合。</effect1>
+			<effect2>对敌方单体进行强力攻击(400|500|550|575|600，lv1~lv5)。</effect2>
+			<effect3>自身NP提升30。</effect3>
+			<remark>如果艾濛存在于一个故事，那么她扮演的角色要么是主角要么是最终boss，她总是能成为团队的中坚力量，带领大家走向胜利。也因此只有她有资格被选为Saber并以亚瑟王的断钢圣剑为宝具。这里在誓约胜利之剑的基础上，加入了柠檬酸化攻击腐蚀地方防御的效果，能够产生更加毁灭性的破坏力。</remark>
+		</nobePhantasm>
+		
+		<nobePhantasm>
+			<type>A</type>
+			<name>最终幻想</name>
+			<alter>Final Fantasy</alter>
+			<level>对人宝具EX</level>
+			<hit>0</hit>
+			<effect1>恢复自身全部生命与50NP。</effect1>
+			<effect2>自身攻击力和防御力提升(80|100|110|115|120，lv1~lv5)%，持续5回合。</effect2>
+			<effect3>赋予自身"5回合后即死"的状态。</effect3>
+			<remark>宣传部最值得怀念的瞬间之一，大概就是一群人围着电脑，看刚刚导出的作品"最终幻想"了吧，那一刻大家都很兴奋。经历了两个月的忙碌，尤其是最后一周的持续刷夜，终于可以稍微休息一下了。</remark>
+		</nobePhantasm>
+		
+		
+	<!-- 主动技能 -->
+		<skill>
+			<logo>39</logo>
+			<name>95法特效A</name>
+			<CD>8~6</CD>
+			<effect1>友方全体Burst卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10)%，持续2回合。</effect1>
+			<effect2>友方全体Art卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10)%，持续2回合。</effect2>
+			<effect3>友方全体Quick卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10)%，持续2回合。</effect3>
+			<remark>将各种插件组合起来灵活运用而成的超级华丽特效，给人带来震撼的视觉体验。这个技能的效果描述之所以用三行描述也是为了体现堆积特效之后给人的连续视觉冲击。另外95号元素是镅Am，正好是艾濛名字的缩写。</remark>
+		</skill>
+
+		<skill>
+			<logo>41</logo>
+			<name>唇枪舌剑A</name>
+			<CD>8~6</CD>
+			<effect1>赋予敌方单体技能封印状态，持续(1|1|1|1|1|2|2|2|2|3，lv1~lv10)回合。</effect1>
+			<effect2>赋予敌方单体宝具封印状态，持续1回合。</effect2>
+			<effect3>30%赋予敌方单体眩晕状态，持续1回合</effect3>
+			<remark>身为辩论队主力，不需要出手就能让对方哑口无言。</remark>
+		</skill>
+
+		<skill>
+			<logo>42</logo>
+			<name>飞天觉醒A</name>
+			<CD>7~5</CD>
+			<effect1>自身暴击伤害提升(30|32|34|36|38|40|42|44|46|50，lv1~lv10)%,持续3回合。</effect1>
+			<effect2>自身获得回避状态，持续一回合</effect2>
+			<effect3></effect3>
+			<remark>看！柠檬在天上飞。</remark>
+		</skill>
+		
+		<skill>
+			<logo>43</logo>
+			<name>灼热之箭B</name>
+			<CD>8~6</CD>
+			<effect1>赋予自身伤害附加(3000|3300|3600|3900|4200|4500|4800|5100|5400|6000，lv1~lv10),持续3回合。</effect1>
+			<effect2>每次攻击消耗5NP，持续3回合。</effect2>
+			<effect3></effect3>
+			<remark>Warrior of the night, assemble!! 周口店考察时，柠檬白虎坐骑与火神弓，可以将手持佩剑如同弓箭一样射出。因此她本身也可以作为Rider或者Archer被召唤。</remark>
+		</skill>
+		
+	<!-- 固有技能 -->
+		<pskill>
+			<logo>44</logo>
+			<name>最终胜利剑EX</name>
+			<effect1>NP大于200时，可以选择将两个宝具合为一体，类型为Burst，OC正常计算，先执行最终幻想，再执行誓约柠檬之剑。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>圣剑就是用来翻盘的。</remark>
+		</pskill>
+		
+		<pskill>
+			<logo>48</logo>
+			<name>保持队形C</name>
+			<effect1>打出Burst/Art/Quick Chain时，或者打出extra攻击时，我方所有攻击Hit数+1，持续1回合。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>风大，小心着凉~</remark>
+		</pskill>
+		
+		<pskill>
+			<logo>45</logo>
+			<name>湮灭低语B</name>
+			<effect1>敌方全体防御力下降10%</effect1>
+			<effect2>敌我双方弱体耐性下降10%</effect2>
+			<effect3></effect3>
+			<remark>自从把星际争霸2虚空之遗里的最终boss-Amon音译成了艾濛之后，就再也无法直视这段波澜壮阔气势恢宏的史诗了。星尘的直播里有一项每周一次的固定节目是我与艾濛有个约会，这场旷日持久的救赎之战持续了长达两年。</remark>
+		</pskill>
+
+		<pskill>
+			<logo>46</logo>
+			<name>樱花瓣D</name>
+			<effect1>暴击率提升10%</effect1>
+			<effect2>回避率提升5%</effect2>
+			<effect3></effect3>
+			<remark>宣传部第一次培训的奖品之一，已经没有了香味，甚至有些苍白，但是还是可以帮助持有者集中精神。</remark>
+		</pskill>
+
+
+		<pskill>
+			<logo>47</logo>
+			<name>命运掌握EX</name>
+			<effect1>当生命值降低到一半以下时，会使自身获得"绝对幸运"(所有概率判定结果都修改为对自己有利)的状态，持续2回合。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>命运和既定的事实都是可以改变的，但是需要付出巨大的代价。</remark>
+		</pskill>
+	</Aimeng>
+	
+	<Qinyiran>
+		<!-- 基本属性 -->
+		<portCount>5</portCount>
+		<class>Lancer</class>
+		<title>小导演·B儿·妹妹·西西里小公主</title>
+		<name>秦一然</name>
+		<name_eng>Lavender Qin</name_eng>
+		<stella>双鱼</stella>
+		<gender>女</gender>
+		<attribute>秩序·善</attribute>
+		<element>水</element>
+
+		<atk>14825</atk>
+		<hp>11432</hp>
+		<card>ABBQQ</card>
+		<!--Arts|Burster|Quick|Extra-->
+		<hit>A2|B1|Q3|EX5</hit>
+		<getNP>1.07|4</getNP>
+		<getstar>12.7%</getstar>
+		<critical>87</critical>
+
+		<!-- 力量，魔力，敏捷，智慧，耐久，魅力，幸运 -->
+		<ability>ECBAAAE</ability>
+		<extra_ability>弦乐A 剪辑C 表演A 导演A 摄影B 心理B</extra_ability>
+
+		<remark>北京大学艺术学院的学生，经常因为各种技术问题与宣传部接触，为了和另一位神秘导演区分，一般称之为小导演。</remark>
+		
+	<!-- 宝具 -->
+		<nobePhantasm>
+			<type>A</type>
+			<name>陌上花开</name>
+			<alter>Garden of Sinners</alter>
+			<level>对人宝具C</level>
+			<hit>0</hit>
+			<effect1>敌方全体Burst卡耐性下降（30|35|40|45|50，OC1~5）%，持续3回合。</effect1>
+			<effect2>对敌方单体进行强力攻击(400|500|550|575|600，lv1~lv5)。</effect2>
+			<effect3>自身NP提升30。</effect3>
+			<remark>如果艾濛存在于一个故事，那么她扮演的角色要么是主角要么是最终boss，她总是能成为团队的中坚力量，带领大家走向胜利。也因此只有她有资格被选为Saber并以亚瑟王的断钢圣剑为宝具。这里在誓约胜利之剑的基础上，加入了柠檬酸化攻击腐蚀地方防御的效果，能够产生更加毁灭性的破坏力。</remark>
+		</nobePhantasm>
+		
+		<nobePhantasm>
+			<type>B</type>
+			<name>化学是你，化学是我</name>
+			<alter>Garden of Sinners</alter>
+			<level>对元素宝具A</level>
+			<hit>0</hit>
+			<effect1>敌方全体Burst卡耐性下降（30|35|40|45|50，OC1~5）%，持续3回合。</effect1>
+			<effect2>对敌方单体进行强力攻击(400|500|550|575|600，lv1~lv5)。</effect2>
+			<effect3>自身NP提升30。</effect3>
+			<remark>如果艾濛存在于一个故事，那么她扮演的角色要么是主角要么是最终boss，她总是能成为团队的中坚力量，带领大家走向胜利。也因此只有她有资格被选为Saber并以亚瑟王的断钢圣剑为宝具。这里在誓约胜利之剑的基础上，加入了柠檬酸化攻击腐蚀地方防御的效果，能够产生更加毁灭性的破坏力。</remark>
+		</nobePhantasm>
+		
+		
+	<!-- 主动技能 -->
+		<skill>
+			<logo>39</logo>
+			<name>山脉行者A</name>
+			<CD>8~6</CD>
+			<effect1>友方全体Burst卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10)%，持续2回合。</effect1>
+			<effect2>友方全体Art卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10)%，持续2回合。</effect2>
+			<effect3>友方全体Quick卡性能提升(20|21|22|23|24|25|26|27|28|30，lv1~lv10)%，持续2回合。</effect3>
+			<remark>将各种插件组合起来灵活运用而成的超级华丽特效，给人带来震撼的视觉体验。这个技能的效果描述之所以用三行描述也是为了体现堆积特效之后给人的连续视觉冲击。另外95号元素是镅Am，正好是艾濛名字的缩写。</remark>
+		</skill>
+
+		<skill>
+			<logo>41</logo>
+			<name>田园交响乐B</name>
+			<CD>8~6</CD>
+			<effect1>赋予敌方单体技能封印状态，持续(1|1|1|1|1|2|2|2|2|3，lv1~lv10)回合。</effect1>
+			<effect2>赋予敌方单体宝具封印状态，持续1回合。</effect2>
+			<effect3>30%赋予敌方单体眩晕状态，持续1回合</effect3>
+			<remark>身为辩论队主力，不需要出手就能让对方哑口无言。</remark>
+		</skill>
+
+		<skill>
+			<logo>42</logo>
+			<name>新成都，老黄历A</name>
+			<CD>7~5</CD>
+			<effect1>自身暴击伤害提升(30|32|34|36|38|40|42|44|46|50，lv1~lv10)%,持续3回合。</effect1>
+			<effect2>自身获得回避状态，持续一回合</effect2>
+			<effect3></effect3>
+			<remark>"天到黑给那惊叫唤，不就是果果头有只偷油婆……"</remark>
+		</skill>
+		
+		<skill>
+			<logo>43</logo>
+			<name>装可爱B</name>
+			<CD>8~6</CD>
+			<effect1>赋予自身伤害附加(3000|3300|3600|3900|4200|4500|4800|5100|5400|6000，lv1~lv10),持续3回合。</effect1>
+			<effect2>每次攻击消耗5NP，持续3回合。</effect2>
+			<effect3></effect3>
+			<remark>Warrior of the night, assemble!! 周口店考察时，柠檬白虎坐骑与火神弓，可以将手持佩剑如同弓箭一样射出。因此她本身也可以作为Rider或者Archer被召唤。</remark>
+		</skill>
+		
+		<skill>
+			<logo>43</logo>
+			<name>端庄自拍B</name>
+			<CD>8~6</CD>
+			<effect1>赋予自身伤害附加(3000|3300|3600|3900|4200|4500|4800|5100|5400|6000，lv1~lv10),持续3回合。</effect1>
+			<effect2>每次攻击消耗5NP，持续3回合。</effect2>
+			<effect3></effect3>
+			<remark>Warrior of the night, assemble!! 周口店考察时，柠檬白虎坐骑与火神弓，可以将手持佩剑如同弓箭一样射出。因此她本身也可以作为Rider或者Archer被召唤。</remark>
+		</skill>
+		
+	<!-- 固有技能 -->
+		<pskill>
+			<logo>44</logo>
+			<name>杯具丢失E</name>
+			<effect1>自身NP获取率降低的25%。</effect1>
+			<effect2>每次攻击除自己外友方全体获得10NP。</effect2>
+			<effect3></effect3>
+			<remark>由于经常丢杯子之类的小东西，所以幸运值被设定为最低值E，这也是她成为Lancer的原因。此技能是丢失的道具被队友捡到的情况。</remark>
+		</pskill>
+		
+		<pskill>
+			<logo>48</logo>
+			<name>好事成双C</name>
+			<effect1>打出Burst/Art/Quick Chain时，或者打出extra攻击时，我方所有攻击Hit数+1，持续1回合。</effect1>
+			<effect2></effect2>
+			<effect3></effect3>
+			<remark>风大，小心着凉~</remark>
+		</pskill>
+		
+		<pskill>
+			<logo>45</logo>
+			<name>坚决不刷夜B</name>
+			<effect1>敌方全体防御力下降10%</effect1>
+			<effect2>敌我双方弱体耐性下降10%</effect2>
+			<effect3></effect3>
+			<remark>自从把星际争霸2虚空之遗里的最终boss-Amon音译成了艾濛之后，就再也无法直视这段波澜壮阔气势恢宏的史诗了。星尘的直播里有一项每周一次的固定节目是我与艾濛有个约会，这场旷日持久的救赎之战持续了长达两年。</remark>
+		</pskill>
+
+		<pskill>
+			<logo>46</logo>
+			<name>所谓家人EX</name>
+			<effect1>暴击率提升10%</effect1>
+			<effect2>回避率提升5%</effect2>
+			<effect3></effect3>
+			<remark>宣传部第一次培训的奖品之一，已经没有了香味，甚至有些苍白，但是还是可以帮助持有者集中精神。</remark>
+		</pskill>
+
+
+	</Qinyiran>
+	
+	
+	
 </heros>

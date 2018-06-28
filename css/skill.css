@@ -30,3 +30,12 @@
 }
 
 
+.skillname {
+	font-size: 25px;
+}
+
+.skicon{
+	position: relative;
+	top:6px;
+	height: 30px;
+}

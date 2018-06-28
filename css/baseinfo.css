@@ -22,12 +22,12 @@
 
 #ename {
 	font-size: 14px;
-	line-height: 14px;
+	line-height: 16px;
 }
 
 #name {
 	font-size: 40px;
-	line-height: 38px;
+	line-height: 40px;
 	font-family: Kaiti, Microsoft Yahei;
 }
 
@@ -52,10 +52,10 @@
 	font-size: 18px;
 	font-weight: normal;
 	padding-left: 20px;
-	padding-top: 30px;
+	padding-top: 27px;
 }
 #basicAbility div{
-	padding-top: 6px;
+	padding-top: 7px;
 }
 #basicAbility div img{
 	position: relative;
